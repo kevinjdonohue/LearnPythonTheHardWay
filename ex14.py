@@ -1,5 +1,8 @@
+"""Exercise 14."""
+
 from sys import argv
 
+# pylint: disable=unbalanced-tuple-unpacking
 script, user_name = argv
 prompt = "> "
 

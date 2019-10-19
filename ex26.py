@@ -1,3 +1,5 @@
+"""Exercise 26."""
+
 from sys import argv
 
 print("How old are you?", end=' ')
@@ -9,6 +11,7 @@ weight = input()
 
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
+# pylint: disable=unbalanced-tuple-unpacking
 script, filename = argv
 
 txt = open(filename)
@@ -25,7 +28,8 @@ print(txt_again.read())
 
 
 print('Let\'s practice everything.')
-print('You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.')
+print('You\'d need to know \'bout escapes with \\ that do \n newlines and \
+      \t tabs.')
 
 poem = """
 \tThe lovely world
@@ -46,6 +50,7 @@ print(f"This should be five: {five}")
 
 
 def secret_formula(started):
+    """Secret Formula."""
     jelly_beans = started * 500
     jars = jelly_beans / 1000
     crates = jars / 100

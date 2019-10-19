@@ -1,3 +1,5 @@
+"""Exercise 24."""
+
 print("Let's practice everything.")
 print('You\'d need to know \'bout escapes with \\ that do:')
 print('\n newlines and \t tabs')
@@ -11,6 +13,8 @@ and requires an explanation
 \n\t\twhere there is none.
 """
 
+"""Exercise 24."""
+
 print("-" * 14)
 print(poem)
 print("-" * 14)
@@ -20,6 +24,7 @@ print(f"This should be five: {five}")
 
 
 def secret_formula(started):
+    """Secret Formula."""
     jelly_beans = started * 500
     jars = jelly_beans / 1000
     crates = jars / 100

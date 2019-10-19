@@ -1,5 +1,12 @@
-# function that takes two parameters, cheese_count and boxes_of_crackers, and prints out messages with their values
+"""Exercise 19."""
+
+
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
+    """Cheese And Crackers.
+
+    function that takes two parameters, cheese_count and boxes_of_crackers,
+    and prints out messages with their values.
+    """
     print(f"You have {cheese_count} cheeses!")
     print(f"You have {boxes_of_crackers} boxes of crackers!")
     print("Man that's enough for a party!")
@@ -22,6 +29,7 @@ cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 print("We can even do math inside too:")
 cheese_and_crackers(10 + 20, 5 + 6)
 
-# also modifying the parameters within the method signature -- combining defined integer variables and integer parameters
+# also modifying the parameters within the method signature
+# combining defined integer variables and integer parameters
 print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)

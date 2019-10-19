@@ -1,22 +1,29 @@
-# simple calculator functions
+"""Exercise 21.
+
+simple calculator functions
+"""
 
 
 def add(a, b):
+    """Add."""
     print(f"ADDING {a} + {b}")
     return a + b
 
 
 def subtract(a, b):
+    """Subtract."""
     print(f"SUBTRACTING {a} - {b}")
     return a - b
 
 
 def multiply(a, b):
+    """Multiply."""
     print(f"MULTIPYING {a} * {b}")
     return a * b
 
 
 def divide(a, b):
+    """Divide."""
     print(f"DIVIDING {a} / {b}")
     return a / b
 

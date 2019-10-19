@@ -1,14 +1,17 @@
+"""Exercise 7."""
+
 # prints out a string
 print("Mary had a little lamb.")
 
-# prints out a formatted string with a placeholder -- inside we call format on the string and pass in the value to be placed in the formatted string placeholder
+# prints out a formatted string with a placeholder -- inside we call format
+# and pass in the value to be placed in the formatted string placeholder
 print("Its fleece was white as {}.".format('snow'))
 
 # prints out a string
 print("And everywhere that Mary went.")
 
-# prints out 10 period strings -- based on using the multiplication operator to create 10 string
-print("." * 10)  # what'd that do?
+# prints out 10 period strings
+print("." * 10)
 
 # assigns a single (character) string to each variable
 end1 = "C"
@@ -24,9 +27,9 @@ end10 = "g"
 end11 = "e"
 end12 = "r"
 
-# watch  = ' ' at the end.  try removing it to see what happens
-
-# prints out the first 6 variables plus assigns an empty space as the end character of the string -- to create space between the first and second words
+# prints out the first 6 variables
+# plus assigns an empty space as the end character of the string
+# to create space between the first and second words
 print(end1 + end2 + end3 + end4 + end5 + end6, end=' ')
 
 # prints out the remaining 6 variables

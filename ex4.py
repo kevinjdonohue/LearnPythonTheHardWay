@@ -1,3 +1,5 @@
+"""Exercise 4."""
+
 # variable is assigned the integer value 100
 cars = 100
 
@@ -10,16 +12,18 @@ drivers = 30
 # variable is assigned the integer value 90
 passengers = 90
 
-# variable is assigned the result of subtracting drivers (30) from cars (100) which is 70
+# variable is assigned the result of subtracting drivers from cars which is 70
 cars_not_driven = cars - drivers
 
 # variable is assigned the integer value from drivers (30)
 cars_driven = drivers
 
-# variable is assigned the result of multiplying cars_driven (same as drivers, 30) by space_in_a_car (4) which is 120.0
+# variable is assigned the result of multiplying cars_driven by space_in_a_car
+# which is 120.0
 carpool_capacity = cars_driven * space_in_a_car
 
-# variable is assigned the result of drividing passengers (90) by cars_driven (same as drivers, 30) which is 3.0
+# variable is assigned the result of drividing passengers (90) by cars_driven
+# which is 3.0
 average_passengers_per_car = passengers / cars_driven
 
 

@@ -1,8 +1,13 @@
+"""Exercise 5."""
+
+
 def convert_inches_to_centimeters(inches):
+    """Convert Inches to Centimeters."""
     return inches * 2.54
 
 
 def convert_pounds_to_kilograms(pounds):
+    """Convert Pounds to Kilograms."""
     return pounds / 2.2046
 
 
