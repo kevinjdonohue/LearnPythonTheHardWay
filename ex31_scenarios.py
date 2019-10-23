@@ -44,4 +44,5 @@ class Scenarios:
     def alt_scenario(self):
         """Alternative Scenario."""
         print(
-            f"You stumble around and fall on a knife and die.  {self.good_job}")
+            f"You stumble around and fall on a knife and die.\
+                  {self.good_job}")
