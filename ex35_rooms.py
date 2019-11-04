@@ -3,7 +3,7 @@
 from sys import exit
 
 
-class Rooms:
+class Rooms(object):
     """Rooms Class."""
 
     def gold_room(self):

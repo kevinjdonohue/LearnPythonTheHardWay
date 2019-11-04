@@ -1,7 +1,7 @@
 """Exercise 31 Scenarios."""
 
 
-class Scenarios:
+class Scenarios(object):
     """A scenarios class."""
 
     good_job = "Good job!"

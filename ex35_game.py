@@ -3,7 +3,7 @@
 from ex35_rooms import Rooms
 
 
-class Game:
+class Game(object):
     """Game."""
 
     def __init__(self):
