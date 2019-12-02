@@ -59,7 +59,7 @@ class Rooms(object):
         print(choice)
 
         if "flee" in choice:
-            self.start()
+            return False
         elif "head" in choice:
             self.dead("Well that was tasty!")
         else:

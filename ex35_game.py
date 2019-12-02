@@ -21,6 +21,7 @@ class Game(object):
         if choice == "left":
             self.r.bear_room()
         elif choice == "right":
-            self.r.cthulhu_room()
+            if not self.r.cthulhu_room():
+                self.start()
         else:
             self.r.dead("You stumble around the room until you starve.")
